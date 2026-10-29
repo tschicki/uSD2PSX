@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uSD2PSX")(type "KiCad")(uri "D:/Development/uSD2PSX/uSD2PSX.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,13 @@
+
+# Executables
+*.exe
+
+#Electronics
+*-backups/
+
+#Syncthing
+.*
+!.gitignore
+
+#temp stuff
+~*
