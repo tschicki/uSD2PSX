@@ -1,6 +1,6 @@
 # About This Project
 
-This variant of the [SD2PSX](https://github.com/sd2psx) is made specifically as an accessory for my PlayStation 2 portable.  
+This variant of the [SD2PSX](https://github.com/sd2psx) is made specifically as an accessory for my [PlayStation 2](https://github.com/tschicki/PS2-Portable) portable.  
 - Its electronics are based on and essentially 1:1 compatible to the original SD2PSX.  
 - Form factor and pinout match an SD card, with one deviation: PS2 memory cards have an ACK signal that SD cards do not have - this is connected to pin 9, instead of DAT2.  
 - While the *uSD2PSX* will fit in any SD card slot, only a PS2 will be able to access it.  
@@ -103,6 +103,7 @@ This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufac
 - Set Autoboot=ON and Mode=PS2 in the menu
 - The *uSD2PSX* should now be configured, unplug it and preferrably give it a try on a PS2
 - When you are sure that the *uSD2PSX* works as intended, adhere the *uSD2PSX Cover* using 2-3 small drops of glue. Ensure that no glue enters the micro SD card slot.
+- As a last step, add a sticker on the top side to protect the testpoints, it should be betwen 0.1 and 0.2mm thickness
 
 <img src="_img/IMG_20261029_210749547.jpg" width="300">
 
