@@ -6,15 +6,8 @@ This variant of the [SD2PSX](https://github.com/sd2psx) is made specifically as 
 - While the *uSD2PSX* will fit in any SD card slot, only a PS2 will be able to access it.  
 - The *uSD2PSX* may be used together with a regular PS2 console too, using a modified Bitfunx MX4SIO memory card.
 
-<img src="_img/IMG_20261030_203136353.jpg" height="300">  
-<img src="_img/IMG_20261029_210831415.jpg" height="300">  
-
-# Contents
-
-- KiCad project for the *uSD2PSX Base* PCB
-- KiCad project for the *uSD2PSX Contacts* PCB
-- KiCad project for the *uSD2PSX Needle Probe* PCB
-- Mechanical designs for *uSD2PSX Cover* and *uSD2PSX Needle Probe*
+<img src="_img/IMG_20261030_203136353.jpg" width="300">  
+<img src="_img/IMG_20261029_210831415.jpg" width="300">  
 
 
 # Parts Overview
@@ -130,6 +123,6 @@ Remove R5 and solder a wire from it to the leftmost pin of the SD card slot. Thi
 <img src="_img/IMG_20261029_214017485.jpg" width="500">
 
 
-# Thanks
+# Thanks!
 Thanks to everyone working on SD2PSX and the awesome SD2PSXtd firmware!  
 And thanks to everyone involved in [PS2 Homebre Store](https://ps2homebrewstore.com), it's awesome to see easily accessible apps and guides!
