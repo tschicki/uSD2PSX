@@ -6,7 +6,8 @@ This variant of the [SD2PSX](https://github.com/sd2psx) is made specifically as 
 - While the *uSD2PSX* will fit in any SD card slot, only a PS2 will be able to access it.  
 - The *uSD2PSX* may be used together with a regular PS2 console too, using a modified Bitfunx MX4SIO memory card.
 
-<img src="_img/IMG_20261029_210831415.jpg" width="500">  
+<img src="_img/IMG_20261030_203136353.jpg" height="300">  
+<img src="_img/IMG_20261029_210831415.jpg" height="300">  
 
 # Contents
 
@@ -20,9 +21,9 @@ This variant of the [SD2PSX](https://github.com/sd2psx) is made specifically as 
 This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufacturing files for the PCBs and 3D printed parts. Below are the required components to order/print.
 
 ## uSD2PSX Base PCB
-- [KiCad project](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
-- [Gerber files](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
-- [BOM](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
+- [KiCad project](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Base)
+- [Gerber files](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Base/Gerber)
+- [BOM](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Base/bom)
 - Supplier: JLCPCB
 - Type: 2-Layer rigid
 - Thickness: 0.6mm
@@ -33,9 +34,9 @@ This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufac
 <img src="_img/Screenshot 2026-10-29 212916.png" width="200">  
 
 ## uSD2PSX Contacts PCB
-- [KiCad project](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
-- [Gerber files](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
-- [BOM](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
+- [KiCad project](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Contacts)
+- [Gerber files](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Contacts/Gerber)
+- BOM: N/A
 - Supplier: JLCPCB
 - Type: 2-Layer rigid
 - Thickness: 0.8mm
@@ -46,9 +47,9 @@ This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufac
 <img src="_img/Screenshot 2026-10-29 213000.png" width="200">  
 
 ## uSD2PSX Needle Probe
-- [KiCad project](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
-- [Gerber files](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
-- [BOM](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
+- [KiCad project](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Adapter)
+- [Gerber files](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Adapter/Gerber)
+- [BOM](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_Adapter/bom)
 - Supplier: JLCPCB
 - Type: 2-Layer rigid
 - Thickness: 1.2mm
@@ -59,13 +60,14 @@ This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufac
 <img src="_img/Screenshot 2026-10-29 213052.png" width="200">  
 
 ## uSD2PSX Cover
-- [STEP & STL](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
+- [STEP & STL](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_3D/Export)
 - 3D printed at 0.12mm layer height
 
 <img src="_img/Screenshot 2026-10-29 213247.png" width="200">  
 
 ## uSD2PSX Needle Probe Parts
-- [STEP & STL](https://github.com/tschicki/PS2-Portable/tree/main/Electronics/uSD2PSX/Gerber)
+- *Clip* and *Aligner*
+- [STEP & STL](https://github.com/tschicki/uSD2PSX/tree/main/uSD2PSX_3D/Export)
 - 3D printed
 
 <img src="_img/Screenshot 2026-10-29 213211.png" width="200"> 
@@ -105,7 +107,9 @@ This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufac
 - When you are sure that the *uSD2PSX* works as intended, adhere the *uSD2PSX Cover* using 2-3 small drops of glue. Ensure that no glue enters the micro SD card slot.
 - As a last step, add a sticker on the top side to protect the testpoints, it should be betwen 0.1 and 0.2mm thickness
 
-<img src="_img/IMG_20261029_210749547.jpg" width="300">
+<img src="_img/IMG_20261029_210749547.jpg" height="300">
+<img src="_img/IMG_20261030_173244812.jpg" height="300">
+<img src="_img/IMG_20261030_203136353.jpg" height="300"> 
 
 # Assembly uSD2PSX Needle Probe
 
@@ -117,9 +121,9 @@ This repo contains the design files (KiCad 7 & SolidWorks Maker) and the manufac
 <img src="_img/IMG_20261029_211544140.jpg" width="300">
 
 
-# Modify a MX4SIO to wirk with uSD2PSX
+# Modify a MX4SIO to work with uSD2PSX
 
-The easiest and cleanest looking way is to connect the *uSD2PSX* to a stock console is to modify a Bitfunx MX4SIO adapter.  
+The easiest and cleanest looking way to connect the *uSD2PSX* to a stock console is to modify a Bitfunx MX4SIO adapter.  
 Buy a Bitfunx MX4SIO with SD card slot (beware, they also sell micro SD versions!) and open it up.
 Remove R5 and solder a wire from it to the leftmost pin of the SD card slot. This will connect the ACK signal back to its original pin.
 
@@ -127,5 +131,5 @@ Remove R5 and solder a wire from it to the leftmost pin of the SD card slot. Thi
 
 
 # Thanks
-Thanks to everyone working on SD2PSX and the awesome SD2PSXtd firmware! 
+Thanks to everyone working on SD2PSX and the awesome SD2PSXtd firmware!  
 And thanks to everyone involved in [PS2 Homebre Store](https://ps2homebrewstore.com), it's awesome to see easily accessible apps and guides!
